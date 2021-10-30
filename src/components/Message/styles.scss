@@ -1,0 +1,28 @@
+.messagesContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 10px;
+  width: 100%;
+
+  & .authMess {
+    margin-left: 55%;
+    max-width: 45%;
+    height: auto;
+    border-radius: 15px;
+    background-color: #0275d8;
+    color: white;
+    word-wrap: break-word;
+  }
+
+  & .foreignMess {
+    width: 45%;
+    border-radius: 15px;
+    word-wrap: break-word;
+  }
+}
+
+.message {
+  margin-top: 5px;
+  margin-left: 5px;
+}
